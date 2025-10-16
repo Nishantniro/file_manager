@@ -28,26 +28,25 @@ class Slide extends StatelessWidget {
                     Text(
                       "Manager",
                       style: TextStyle(
-                        color: Colors.white,
+                        color: const Color.fromARGB(255, 75, 74, 113),
                         fontWeight: FontWeight.w300,
                         fontSize: 20,
                       ),
                     ),
-                    Container(
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.circle_rounded,
-                            color: Colors.white,
-                            size: 10,
-                          ),
-                          Icon(
-                            Icons.circle_rounded,
-                            color: Colors.white,
-                            size: 10,
-                          ),
-                        ],
-                      ),
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.circle_rounded,
+                          color: Colors.white,
+                          size: 8,
+                        ),
+                        SizedBox(width: 2),
+                        Icon(
+                          Icons.circle_rounded,
+                          color: Colors.white,
+                          size: 8,
+                        ),
+                      ],
                     ),
                   ],
                 ),
