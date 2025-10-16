@@ -1,5 +1,6 @@
 import 'package:file_manager/appbar.dart';
 import 'package:flutter/material.dart';
+import 'package:file_manager/slider.dart';
 
 class Myhomepage extends StatelessWidget {
   const Myhomepage({super.key});
@@ -64,6 +65,7 @@ class Myhomepage extends StatelessWidget {
               ],
             ),
           ),
+          Slide(),
         ],
       ),
     );
