@@ -50,6 +50,61 @@ class Slide extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(height: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Large",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 30,
+                            height: 1,
+                          ),
+                        ),
+
+                        Text(
+                          "files",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w600,
+                            fontSize: 30,
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    Column(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "68",
+                          style: TextStyle(
+                            color: const Color.fromARGB(255, 105, 242, 42),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 40,
+                            height: 1,
+                          ),
+                        ),
+
+                        Text(
+                          "Items",
+                          style: TextStyle(
+                            color: const Color.fromARGB(255, 75, 74, 113),
+                            fontWeight: FontWeight.w300,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ],
             ),
           );
